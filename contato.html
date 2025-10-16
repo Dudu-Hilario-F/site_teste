@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Página de Teste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Site Teste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item home">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item sobre">
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item servicos">
+                    <a href="servicos.html" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item contato">
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="welcome-section">
+                <h1>📞 Contato do Laboratório</h1>
+                <p class="subtitle">Entre em contato para colaborações e estudos em grupo</p>
+                
+                <div class="test-info">
+                    <h3>🤝 Colaborações & Parcerias:</h3>
+                    <ul>
+                        <li>📧 Email: devops.lab@estudos.com</li>
+                        <li>💬 Discord: Laboratório Backend & DevOps</li>
+                        <li>🐙 GitHub: github.com/laboratorio-devops</li>
+                        <li>💼 LinkedIn: /company/laboratorio-backend-devops</li>
+                        <li>📱 Telegram: @LabBackendDevOps</li>
+                    </ul>
+                </div>
+
+                <div class="test-info">
+                    <h3>🎓 Oportunidades de Estudo:</h3>
+                    <ul>
+                        <li><strong>Grupos de Estudo:</strong> Sessões semanais de Docker e Kubernetes</li>
+                        <li><strong>Code Reviews:</strong> Revisão de código Java Spring Boot</li>
+                        <li><strong>Workshops:</strong> Nginx, Load Balancing e Cloud</li>
+                        <li><strong>Projetos Práticos:</strong> Implementação de arquiteturas reais</li>
+                        <li><strong>Mentoria:</strong> Orientação em carreira DevOps</li>
+                    </ul>
+                </div>
+
+                <div class="test-info">
+                    <h3>💬 Formulário de Interesse (Demo):</h3>
+                    <form style="text-align: left; max-width: 500px; margin: 20px auto;">
+                        <div style="margin-bottom: 15px;">
+                            <label for="nome" style="display: block; margin-bottom: 5px; font-weight: bold;">Nome:</label>
+                            <input type="text" id="nome" name="nome" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px;">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                            <input type="email" id="email" name="email" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px;">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="interesse" style="display: block; margin-bottom: 5px; font-weight: bold;">Área de Interesse:</label>
+                            <select id="interesse" name="interesse" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px;">
+                                <option value="">Selecione uma área</option>
+                                <option value="docker">Docker & Containerização</option>
+                                <option value="kubernetes">Kubernetes & Orquestração</option>
+                                <option value="nginx">Nginx & Load Balancing</option>
+                                <option value="java">Java Spring Boot APIs</option>
+                                <option value="cloud">Cloud Computing (AWS/Azure/GCP)</option>
+                                <option value="databases">Bancos de Dados</option>
+                                <option value="monitoring">Monitoramento & Observabilidade</option>
+                            </select>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="mensagem" style="display: block; margin-bottom: 5px; font-weight: bold;">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre seus objetivos de aprendizado..." style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; resize: vertical;"></textarea>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="cta-section">
+                    <p>Junte-se à nossa comunidade de estudos backend e DevOps!</p>
+                    <button class="cta-button" onclick="alert('Obrigado pelo interesse! Em breve entraremos em contato para discutir oportunidades de colaboração no laboratório! 🚀')">
+                        Enviar Interesse
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 - Página de Teste para Deploy</p>
+    </footer>
+</body>
+</html>
